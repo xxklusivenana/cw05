@@ -3,10 +3,8 @@ import './App.css';
 import React, { Component } from 'react';
 import HelloWorld from './components/HelloWorld.jsx';
 import Counter from './components/Counter.jsx';
-import FoodList from './components/List.jsx';
-import Spacer from './components/Spacer.jsx';
+import List from './components/List.jsx';
 import FilteredList from './components/FilteredList.jsx';
-import Header from './components/Header.jsx';
 
 const produce = [
     { name: "Apple", type: "Fruit" },
